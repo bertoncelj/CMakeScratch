@@ -1,0 +1,2 @@
+# CMakeScratch
+random cmake scripts
