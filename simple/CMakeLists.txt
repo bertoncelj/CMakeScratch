@@ -33,3 +33,16 @@ message( TRACE "trace message!")
 
 
 
+
+function(Foo)
+  list(APPEND CMAKE_MESSAGE_CONTEXT "foooooo")
+  message("Foo message")
+endfunction()
+
+list(APPEND CMAKE_MESSAGE_CONTEXT "top")
+message("Before foo")
+foo()
+message("After foo")
+
+
+
