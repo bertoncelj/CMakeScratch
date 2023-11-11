@@ -13,3 +13,23 @@ else()
 endif()
 
 find_package (Python3 COMPONENTS Interpreter Development)
+
+
+set (ENV{ANA} "ANAAANAAA!!!")
+
+set(name_var "Hello")
+
+set(NEKI TRUE) 
+
+
+message( SEND_ERROR "Send error message!" )
+message( WARNING "Hello warrning!")
+message(AUTHOR_WARNING "author warrning!")
+message( NOTICE "notice message!")
+message( STATUS "status message!")
+message( VERBOSE "verbose message!")
+message( DEBUG "debugg message!")
+message( TRACE "trace message!")
+
+
+
